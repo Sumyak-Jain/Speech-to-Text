@@ -3,8 +3,8 @@ from ibm_watson import SpeechToTextV1
 import json
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 # store your API url and APIKEY 
-SPEECH_TO_TEXT_URL="https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/56537a43-d299-429b-a013-9ee67036ed0f"
-SPEECH_TO_TEXT_IAM_APIKEY="W-g24360jzJ74y9fqpCYGzPPgBMWyNy0gT4CAPpl8IWh"
+SPEECH_TO_TEXT_URL=""
+SPEECH_TO_TEXT_IAM_APIKEY=""
 # create API object by authenticating your url and key	
 authenticator = IAMAuthenticator(SPEECH_TO_TEXT_IAM_APIKEY)
 s2t = SpeechToTextV1(authenticator=authenticator)
